@@ -1,7 +1,8 @@
-trash/ 
+.trash/
 .history
 shell.log
 venv/
 .idea/
 .pytest_cache/
-
+__pycache__/
+*.egg-info
