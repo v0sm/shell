@@ -1,0 +1,7 @@
+trash/ 
+.history
+shell.log
+venv/
+.idea/
+.pytest_cache/
+

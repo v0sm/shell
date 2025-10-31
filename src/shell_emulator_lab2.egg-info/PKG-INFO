@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: shell-emulator-lab2
+Version: 1.0.0
+Summary: Shell emulator for MAI Python Lab 2
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest==8.4.2; extra == "dev"
+Requires-Dist: mypy==1.18.2; extra == "dev"
+Requires-Dist: ruff==0.14.3; extra == "dev"
+Requires-Dist: pre-commit==4.3.0; extra == "dev"
