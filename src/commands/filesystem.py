@@ -53,7 +53,7 @@ class FileSystemCommands(BaseCommands):
                     item_type = '[DIR]' if os.path.isdir(item_path) else ''
                     print(f"{item:<30} {size:<15} {modified:<20} {perms:<12} {item_type}")
             else:
-                for item in sorted(items):
+                for item in sorted(items, key=str.lower):
                     print(item)
 
             self.logger.log_success(f"ls {'-l' if detailed else ''} {target_path}")
